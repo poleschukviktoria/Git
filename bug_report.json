@@ -1,3 +1,26 @@
 {
-    "Some Error"
+  "ID": "000",  
+  "Title": "Заголовок",  
+  "Environment": "Окружение",
+  "Precondition": "Предусловия",
+  "STR": "Шаги воспроизведения бага",
+  "AR": "Фактический результат",
+  "ER": "Ожидаемый результат",
+  "Attachments": "Скриншот или видео",
+  "Severity": [
+    {
+       "bug": "Blocker",
+       "bug": "Critical",
+       "bug": "Major",
+       "bug": "Minor",
+       "bug": "Trivial"
+    }
+  ],  
+  "Priority": [
+    {
+        "bug": "High", 
+        "bug": "Medium",
+        "bug": "Low"
+    }
+  ]
 }
