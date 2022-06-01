@@ -100,6 +100,32 @@
 
 18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
 > На GitHub модифицировать файл bug_report.json  
+> {  
+  "ID": "000",    
+  "Title": "Заголовок",    
+  "Environment": "Окружение",  
+  "Precondition": "Предусловия",  
+  "STR": "Шаги воспроизведения бага",    
+  "AR": "Фактический результат",  
+  "ER": "Ожидаемый результат",  
+  "Attachments": "Скриншот или видео",  
+  "Severity": [  
+    {  
+       "bug": "Blocker",  
+       "bug": "Critical",  
+       "bug": "Major",  
+       "bug": "Minor",  
+       "bug": "Trivial"   
+    }  
+  ],    
+  "Priority": [  
+    {    
+        "bug": "High",   
+        "bug": "Medium",  
+        "bug": "Low"  
+    }  
+  ]  
+}  
 
 19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 > Закоммитить bug_report.json файл на GitHub  
